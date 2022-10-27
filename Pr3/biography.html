@@ -2,6 +2,26 @@
 <html>
 <head>
 <title>Автобіографія</title>
+
+<style> 
+	a.button { 
+		width: 250px; 
+		height: 25px; 
+		display: inline-block; 
+		border: 1px solid black; 
+		background-color:blue; 
+		transition: color 0.1s linear; 
+		color:white;
+	} 
+	a.button:hover{ 
+	background-color:magenta; 
+	} 
+	  
+	a.button:active {
+	background-color: yellow; 
+	color: black;
+	}
+</style> 
 </head>
 <body>
 
@@ -10,11 +30,11 @@
 
 <h3 id="h">Зміст</h3>
 
-<a href="#a1">Базова інфромація</a>
-<a href="#a2">Дитинство</a>
-<a href="#a3">Шкільні роки</a>
-<a href="#a4">Поза школою</a>
-<a href="#a5">Університет</a>
+<a class="button" href="#a1">Базова інфромація</a>
+<a class="button" href="#a2">Дитинство</a>
+<a class="button" href="#a3">Шкільні роки</a>
+<a class="button" href="#a4">Поза школою</a>
+<a class="button" href="#a5">Університет</a>
 
 <article id="a1">
 	<h2>Базова інфромація</h2>
