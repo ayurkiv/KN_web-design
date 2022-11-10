@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Автобіографія</title>
+
+<style> 
+	article > a {
+		font-weight: bold;
+	}
+
+	a.button { 
+		width: 250px; 
+		height: 25px; 
+		display: inline-block; 
+		border: 1px solid black; 
+		background-color:blue; 
+		transition: color 0.1s linear; 
+		color:white;
+	} 
+	a.button:hover{ 
+		background-color:magenta; 
+	} 
+	  
+	a.button:active {
+		background-color: yellow; 
+		color: black;
+	}
+	h1 {
+	   font-size: 22px;
+	   text-align: center;
+   }
+   #italic {
+   	font-style: italic;
+   }
+   #h {
+   	text-align: center;
+   }
+   article {
+   	font-size: 120%;
+   }
+   article > h3 {
+   	font-size: 120%;
+   }
+   #up {
+   	text-transform: uppercase;
+   }
+</style> 
+</head>
+<body>
+
+<h1 id="h1">Автобіографія Юрків Андрій Андрійович</h1>
+<a id="italic" href="index.html">Назад на головну</a>
+
+<h2 id="h">Зміст</h2>
+
+<a class="button" href="#a1">Базова інфромація</a>
+<a class="button" href="#a2">Дитинство</a>
+<a class="button" href="#a3">Шкільні роки</a>
+<a class="button" href="#a4">Поза школою</a>
+<a class="button" href="#a5">Університет</a>
+
+<article id="a1">
+	<h3>Базова інфромація</h3>
+	<p>
+		Я, Юрків Андрій Андрійович, народився 16 вересня 2004 року в місті 
+		Івано-Франківськ (Україна). Батько Юрків Андрій Зіновійович, мати Юрків Ганна Іванівна.
+	</p>
+	<a class="dozmistu" href="#h">до змісту</a>
+</article>
+
+<article id="a2">
+	<h3>Дитинство</h3>
+	<p>
+		Дитинство провів у смт. Ворохта Івано-Франківської області.
+	</p>
+	<a href="#h">до змісту</a>
+</article>
+
+<article id="a3">
+	<h3>Шкільні роки</h3>
+	<p>
+		У 2010 році пішов в 1 клас середньої загальноосвітньої школи 
+		в смт. Ворохта. У 2022 році закінчив її зі золотою медаллю.
+	</p>
+	<a href="#h">до змісту</a>
+
+</article>
+
+<article id="a4">
+	<h3>Поза школою</h3>
+	<p>Ходив на гурток біології та програмування.</p>
+	<a href="#h">до змісту</a>
+
+</article>
+
+<article id="a5">
+	<h3>Університет</h3>
+	<p>
+		Після закінчення школи у вересні 2022 року вступив до 
+		Прикарпатського національного університету на факультет інформатики та математики.
+	</p>
+	<a href="#h">до змісту</a>
+</article>
+<hr>
+<a id="up" href="#h1">на верх</a>
+</body>
+</html>
