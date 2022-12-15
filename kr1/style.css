@@ -1,0 +1,331 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+table {
+	text-align:center;
+	width: 270px;
+	height: 180px;
+	margin-top: 15px;
+}
+th {
+	color: black;
+	background-color: white;
+}
+td {
+	color:black;
+	background-color:white;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse:collapse;
+	padding:10px 5px;
+	line-height:13px;
+	vertical-align: middle;
+}
+.header_block {
+	margin: 0px;
+	background-color: white;
+	position: absolute;
+	width: 150px;
+	height: 35px;
+	right: 0px;
+	bottom: 0px;
+	text-align: center;
+	padding-top: 8px;
+/*	border: 1px solid black;*/
+}
+
+article {
+	font-size: 16px;
+}
+
+h4 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 19.2px;
+
+}
+
+.block {
+	position: relative;
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.padd {
+	 padding: 20px;
+    padding-left: -5px;
+    margin-left: -10px;
+}
+
+.contein {
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+
+/*	border: 1px solid black;*/
+}
+
+.bl1 {
+	background-color: #F4EBD0;
+
+;
+
+}
+
+.bl2 {
+	background-color: #EEEDE7;
+
+}
+
+.bl3 {
+	display: flex;
+	justify-content: center;
+	background-color: #D4F1F4;
+
+
+}
+
+.bl4 {
+	background-color: #7EC8E3;
+
+}
+
+.bh1 {
+	background-color: #122620;
+	color: #D6AD60;
+}
+
+.bh2 {
+	background-color: #363331;
+	color: #E7D2CC;
+}
+
+.bh3 {
+	background-color: #0C2D48;
+	color: #B1D4E0;
+
+}
+
+.bh4 {
+	background-color: #050A30;
+	color: #7EC8E3;
+}
+
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+article {
+    height: max-content;
+}
+/* Dekstop */
+@media (min-width: 992px) and (max-width: 1200px){
+.col-dk-1, .col-dk-2, .col-dk-3, .col-dk-4, .col-dk-5, .col-dk-6, .col-dk-7, .col-dk-8,
+.col-dk-9, .col-dk-10, .col-dk-11, .col-dk-12 {
+}
+
+.col-dk-1 {
+width: 8.33%;
+}
+.col-dk-2 {
+width: 16.66%;
+}
+.col-dk-3 {
+width: 25%;
+}
+.col-dk-4 {
+width: 33.33%;
+}
+.col-dk-5 {
+width: 41.66%;
+}
+.col-dk-6 {
+width: 50%;
+}
+
+.col-dk-7 {
+width: 58.33%;
+}
+.col-dk-8 {
+width: 66.66%;
+}
+.col-dk-9 {
+width: 75%;
+}
+.col-dk-10 {
+width: 83.33%;
+}
+.col-dk-11 {
+width: 91.66%;
+}
+.col-dk-12 {
+width: 100%;
+}
+.contein {
+	height: 250px;
+}
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 992px) {
+.col-tb-1, .col-tb-2, .col-tb-3, .col-tb-4, .col-tb-5, .col-tb-6, .col-tb-7, .col-tb-8,
+.col-tb-9, .col-tb-10, .col-tb-11, .col-tb-12 {
+}
+.col-tb-1 {
+width: 8.33%;
+}
+.col-tb-2 {
+width: 16.66%;
+}
+.col-tb-3 {
+width: 25%;
+}
+.col-tb-4 {
+width: 33.33%;
+}
+.col-tb-5 {
+width: 41.66%;
+}
+.col-tb-6 {
+width: 50%;
+}
+
+.col-tb-7 {
+width: 58.33%;
+}
+.col-tb-8 {
+width: 66.66%;
+}
+.col-tb-9 {
+width: 75%;
+}
+.col-tb-10 {
+width: 83.33%;
+}
+.col-tb-11 {
+width: 91.66%;
+}
+.col-tb-12 {
+width: 100%;
+}
+	.contein {
+height: 300px;
+}
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+.col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8,
+.col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12 {
+}
+.col-mb-1 {
+width: 8.33%;
+}
+.col-mb-2 {
+width: 16.66%;
+}
+.col-mb-3 {
+width: 25%;
+}
+.col-mb-4 {
+width: 33.33%;
+}
+.col-mb-5 {
+width: 41.66%;
+}
+.col-mb-6 {
+width: 50%;
+}
+.col-mb-7 {
+width: 58.33%;
+}
+.col-mb-8 {
+width: 66.66%;
+}
+.col-mb-9 {
+width: 75%;
+}
+.col-mb-10 {
+width: 83.33%;
+}
+.col-mb-11 {
+width: 91.66%;
+}
+.col-mb-12 {
+width: 100%;
+}
+.contein {
+	height: 240px;
+}
+.bl3 {
+	justify-content: left;
+}
+
+}
+
+/*large dekstop*/
+@media (min-width: 1200px) {
+.col-db-1, .col-db-2, .col-db-3, .col-db-4, .col-db-5, .col-db-6, .col-db-7, .col-db-8,
+.col-db-9, .col-db-10, .col-db-11, .col-db-12 {
+}
+.col-db-1 {
+width: 8.33%;
+}
+.col-db-2 {
+width: 16.66%;
+}
+.col-db-3 {
+width: 25%;
+}
+.col-db-4 {
+width: 33.33%;
+}
+.col-db-5 {
+width: 41.66%;
+}
+.col-db-6 {
+width: 50%;
+}
+.col-db-7 {
+width: 58.33%;
+}
+.col-db-8 {
+width: 66.66%;
+}
+.col-db-9 {
+width: 75%;
+}
+.col-db-10 {
+width: 83.33%;
+}
+.col-db-11 {
+width: 91.66%;
+}
+.col-db-12 {
+width: 100%;
+}
+.contein {
+	height: 300px;
+}
+
+img {
+	width: 100%;
+	height: 65%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+}
